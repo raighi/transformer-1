@@ -1,4 +1,5 @@
 import torch
+import os
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
